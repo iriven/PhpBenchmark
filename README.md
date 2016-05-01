@@ -1,9 +1,9 @@
 # IrivenPhpBenchmark
 
 -
-•	include '../src/IrivenPhpBenchmark.php';
-•	$benchmark= new IrivenPhpBenchmark();
--
+# Initialisation
+	include '../src/IrivenPhpBenchmark.php';
+	$benchmark= new IrivenPhpBenchmark();
 -
 # ajout d'un marquer
 
@@ -20,9 +20,8 @@
 # temps de chargement total de la page 
 
 	echo $benchmark->getElapsedTime();
-
+-
 # lister les differents points de marquage 
 
-- format html:    echo $benchmark->getMarks();
-  
-- en Tableau:     print_r($benchmark->getMarks(false));
+format html:    echo $benchmark->getMarks();
+sous forme de Tableau:     print_r($benchmark->getMarks(false));
