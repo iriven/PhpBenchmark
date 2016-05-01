@@ -7,7 +7,7 @@ Mesurez la performance de vos scripts en PHP
 	include '../src/IrivenPhpBenchmark.php';
 	$benchmark= new IrivenPhpBenchmark();
 -
-# ajout d'un marquer
+# ajout d'un marqueur
 
 	$benchmark->addMarker('pointA');
 	$benchmark->addMarker('pointB');
@@ -23,7 +23,7 @@ Mesurez la performance de vos scripts en PHP
 
 	echo $benchmark->getElapsedTime();
 -
-# lister les differents points de marquage 
+# lister tous les marqueurs 
 
 - **[HTML FORMAT] :** echo $benchmark->getMarks();
 - **[ARRAY FORMAT] :** print_r($benchmark->getMarks(false));
