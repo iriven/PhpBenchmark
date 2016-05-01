@@ -23,5 +23,5 @@
 -
 # lister les differents points de marquage 
 
-format html:    echo $benchmark->getMarks();
-sous forme de Tableau:     print_r($benchmark->getMarks(false));
+- [HTML FORMAT] : echo $benchmark->getMarks();
+- [ARRAY FORMAT] : print_r($benchmark->getMarks(false));
