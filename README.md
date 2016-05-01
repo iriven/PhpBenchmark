@@ -1,6 +1,6 @@
-# IrivenPhpBenchmark
-----------------------------------------------------------------------------
-** Mesurez la performance de vos scripts en PHP **
+# IrivenPhp Benchmark
+
+Mesurez la performance de vos scripts en PHP 
 ----------------------------------------------------------------------------
 -
 # Initialisation
