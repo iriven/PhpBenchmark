@@ -1,5 +1,7 @@
 # IrivenPhpBenchmark
-
+----------------------------------------------------------------------------
+** Mesurez la performance de vos scripts en PHP **
+----------------------------------------------------------------------------
 -
 # Initialisation
 	include '../src/IrivenPhpBenchmark.php';
